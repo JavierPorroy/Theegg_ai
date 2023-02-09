@@ -1,7 +1,7 @@
 print("Tras introducir un número entre 0,0001 y 0,9999 (no mas de 4 cifras decimales),\nse obtendrá y mostrará la correspondiente fracción irreducible.")
 print()
 print()
-print()
+print()	#Aqui hago print
 
 
 entrada = True						# Se le asigna a "entrada" el  valor booleano True para poder realizar el búcle posterior.
