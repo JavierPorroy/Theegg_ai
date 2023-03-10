@@ -10,21 +10,19 @@ a = float(input("Introduce el primer número: "))
 b = float(input("Introduce un segundo número: "))
 c = float(input("Introduce un tercer número: "))
 
-if a > b > c:
+if a > b and a > c:
 	print (a, "es el mayor.")
-elif a < b > c:
+elif a < b and b > c:
 	print (b, "es el mayor.")
-elif b < a < c:
+elif a < b and b < c:
 	print (c, "es el mayor.")
-elif a < c > b:
-	print (c, "es el mayor.")
-elif a == b > c:
+elif a == b and b > c:
 	print (a, " y ", b,",son iguales y son el número mayor.")
-elif a < b == c:
+elif a < b and b == c:
 	print (b, " y ", c,",son iguales y son el número mayor.")
-elif a > b == c:
+elif a > b and b == c:
 	print (a, "es el mayor.")
-elif a == c > b:
+elif a == c and c > b:
 	print (a, " y ", c,",son iguales y son el número mayor.")
 else:
 	print("Los 3 numreros son iguales.")

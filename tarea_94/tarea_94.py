@@ -15,3 +15,4 @@ print()
 print()
 print()
 print("En Jupiter, un objeto que tarda",x, " segundos en llegar al suelo, se encuentra a una altura de ",(t.jupiter(x,24.8))," metros.")
+
